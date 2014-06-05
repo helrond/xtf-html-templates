@@ -1,0 +1,35 @@
+<div class="modal" id="set-language">
+    <div class="modal-header">
+        <button type="button" class="close" aria-hidden="true">×</button>
+        <h3>Set Language</h3>
+    </div>
+    <div class="modal-body">
+        <form action="/xtf/search" method="get">
+            <div class="radio">
+                <input type="radio" name="lang" value="en" checked="checked" />
+                <label for="lang">English</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="lang" value="sp" />
+                <label for="lang">Spanish</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="lang" value="fr" />
+                <label for="lang">French</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="lang" value="it" />
+                <label for="lang">Italian</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="lang" value="de" />
+                <label for="lang">German</label>
+            </div>
+            <div class="modal-buttons">
+                <input type="submit" value="Submit" />
+                <input type="button" value="Cancel" />
+                <input type="hidden" name="smode" value="setLang" />
+            </div>
+        </form>
+    </div>
+</div>

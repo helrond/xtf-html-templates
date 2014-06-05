@@ -1,26 +1,18 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+!DOCTYPE html>
+<html lang="en">
+   <!-- head still needs work -->
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8; charset=UTF-8" />
-      <link rel="stylesheet" type="text/css"
-            href="http://localhost:8080/xtf/css/default/ead.css" />
-      <link rel="shortcut icon" href="icons/default/favicon.ico" />
-      <title>Alexander Hamilton  A Register of His Papers in the Library of Congress</title>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8; charset=UTF-8" />
+      <title>XTF: Search Results</title>
+      <!-- Stylesheets and scripts go here -->
    </head>
-   <frameset rows="120,*">
-      <frame frameborder="1" scrolling="no" title="Navigation Bar" name="bbar"
-             src="http://localhost:8080/xtf/view?docId=ead/hamilton/hamilton.xml;doc.view=bbar;brand=default" />
-      <frameset cols="35%,65%">
-         <frame frameborder="1" title="Table of Contents" name="toc"
-                src="http://localhost:8080/xtf/view?docId=ead/hamilton/hamilton.xml;doc.view=toc;brand=default;chunk.id=0;#X" />
-         <frame frameborder="1" title="Content" name="content"
-                src="http://localhost:8080/xtf/view?docId=ead/hamilton/hamilton.xml;doc.view=content;brand=default;chunk.id=0#X" />
-      </frameset>
-      <noframes>
-         <body>
-            <h1>Sorry, your browser doesn't support frames...</h1>
-         </body>
-      </noframes>
-   </frameset>
+   <body>
+      <!-- nav goes here -->
+      <main role="main">
+         <section id="document-header"></section>
+         <section id="document-wrapper">
+            <section id="table-of-contents"></section>
+            <section id="content"></section>
+         </section>
+      </main>
 </html>

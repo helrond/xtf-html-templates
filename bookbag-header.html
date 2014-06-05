@@ -1,0 +1,22 @@
+<header class="bookbag-header">
+    <p>
+        <a class="btn btn-primary" data-toggle="modal" data-target="#email-bookbag"> E-mail
+            My Bookbag </a>
+    </p>
+    <div class="modal" id="email-bookbag">
+        <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3>Email My Bookbag</h3>
+        </div>
+        <div class="modal-body">
+            <form action="http://localhost:8080/xtf/search" method="get">
+                <div class="modal-buttons">
+                    <input type="email" name="email" />
+                    <input type="submit" value="Send" />
+                    <input type="reset" value="Cancel" data-dismiss="modal" />
+                    <input type="hidden" name="smode" value="emailFolder" />
+                </div>
+            </form>
+        </div>
+    </div>
+</header>

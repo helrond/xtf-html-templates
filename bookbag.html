@@ -9,39 +9,15 @@
    <body>
       <!-- nav goes here -->
       <main role="main">
-         <header class="bookbag-header">
-            <p>
-               <a class="btn btn-primary" data-toggle="modal" data-target="#email-bookbag"> E-mail
-                  My Bookbag </a>
-            </p>
-            <div class="modal" id="email-bookbag">
-               <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
-                     >×</button>
-                  <h3>Email My Bookbag</h3>
-               </div>
-               <div class="modal-body">
-                  <form action="http://localhost:8080/xtf/search" method="get">
-                     <div class="modal-buttons">
-                        <input class="form-control" type="email" name="email" size="50" /> <input
-                           class="btn btn-primary" type="submit" value="Send" /> <input
-                           class="btn btn-default" type="reset" value="Cancel" data-dismiss="modal"
-                            /><input type="hidden" name="smode" value="emailFolder" />
-                     </div>
-                  </form>
-               </div>
-            </div>
-         </header>
-
+         <!-- bookbag-header goes here -->
          <section id="results-wrapper">
             <section id="results">
                <section id="results-info"> Stuff about bookbag contents </section>
                <section id="hits">
-                  <!-- .hit -->
+                  <!-- hit goes here -->
                </section>
             </section>
          </section>
-         <!-- set language modal -->
       </main>
       <!-- footer -->
    </body>
